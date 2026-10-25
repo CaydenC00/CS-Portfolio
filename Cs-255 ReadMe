@@ -1,0 +1,16 @@
+# DriverPass Project Reflection
+
+### 1. Project Summary & Client Objectives
+The client for this project is DriverPass, a driving school that wanted a modern system to replace their manual processes and fix a 65% student failure rate on DMV exams. They needed a cloud platform to handle online study guides, track practice test scores, and coordinate behind-the-wheel driving lessons with their certified instructors and 10-car fleet.
+
+### 2. High-Performance Accomplishments
+I think I did particularly well with setting up the clear requirements for the system. I didn't just list what the system should do, but also how fast and secure it needed to be—like requiring the scheduling page to load in under 2 seconds and making sure student payment data is fully encrypted. 
+
+### 3. Areas Targeted for Revision
+If I could go back and revise one part, I would expand on the system limitations. The document lists great real-world limits, like the 10-car fleet capacity and requiring an active internet connection, but I would add a clearer backup plan for what the system should do if the connection to the DMV servers randomly drops out or goes offline.
+
+### 4. User-Centric Design Interpretation
+I figured out what the user needed by breaking the system down into four specific roles: Students, Secretaries, IT Officers, and the Owner. By using a UML Use Case diagram, I mapped out exactly who does what—like students booking lessons, secretaries processing payments, and instructors logging progress notes. This is important because it makes sure the software actually fits into the company's daily routine instead of being too confusing to use.
+
+### 5. Approach to Designing Software
+My approach to software design is to sketch out the entire workflow visually before touching any code. Using UML Activity and Sequence diagrams helped me map the exact steps of booking a lesson—first checking if a car and instructor are free, locking the timeslot, and then sending out confirmation alerts. In the future, I will keep using these visual diagrams and Gantt charts to keep my project timelines organized and easy to follow.
