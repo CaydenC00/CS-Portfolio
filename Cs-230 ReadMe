@@ -1,0 +1,13 @@
+The Gaming Room - Software Design Reflection
+1. Project Summary & Client Requirements
+The client for this project is The Gaming Room. They wanted to turn their Android app game, "Draw It or Lose It," into a web-based multiplayer game that works on any device. The main requirements were to make it run smoothly in standard web browsers, allow multiple teams to play together, and give every game, team, and player a unique ID so things don't get mixed up.
+2. Areas Done Particularly Well
+I think I did well on the Operating Systems evaluation chart. I broke down the pros and cons for Mac, Linux, Windows, and mobile devices so it was easy to see why hosting the backend on a Linux cloud server was the cheapest and most secure choice for the client.
+3. Benefits of a Design Document When Coding
+Writing the design document first made coding a lot easier because it gave me a blueprint to follow. Since I mapped out the UML class diagram and picked my design patterns ahead of time, I knew how to set up the Singleton pattern for the game service and how to use iterators to check for unique names without getting stuck on the logic while writing the code.
+4. Areas Targeted for Revision
+If I could change one part, I would add more detail to the network disconnection section. My plan uses a message queue to handle temporary drops during the 60-second rounds, but I would like to add a step-by-step breakdown of how many seconds the system waits before officially kicking a disconnected player out of the lobby.
+5. Interpreting and Implementing User Needs
+I figured out the user's needs by focusing on convenience, players want to join matches with friends on different devices without downloading any heavy software. I implemented this by using HTML5 and JavaScript, so the game opens in any browser. It is important to think about user needs because if a game is too frustrating to set up or join, people won't play it.
+6. Approach to Designing Software
+My approach to software design is to plan out the backend architecture and memory limits before writing any code. I like to organize my classes first to avoid code duplication and make sure database storage is set up correctly. In the future, I will keep using these visual planning strategies to make sure my projects are clean, secure, and easy to update.
